@@ -1,0 +1,20 @@
+{
+  "itemGroup.thelostland.common": "The Lost Land",
+  "itemGroup.thelostland.legendary": "Legendary",
+
+  "item.thelostland.bloody_crystal": "Bloody Crystal",
+  "item.thelostland.bloody_crystal.tooltip": "§4This land has accumulated so many traces of war, even blood has turned into crystal",
+  "block.thelostland.bloody_crystal_ore": "Bloody Crystal Ore",
+  "block.thelostland.deepslate_bloody_crystal_ore": "Deepslate Bloody Crystal Ore",
+  "item.thelostland.bloody_iron": "Bloody Iron",
+  "item.thelostland.bloody_iron.tooltip": "§4Bloody iron, sharper than before",
+  "item.thelostland.bloody_diamond": "Bloody Diamond",
+  "item.thelostland.bloody_diamond.tooltip": "§4Bloody diamonds, blood-red crystal clear",
+
+  "item.thelostland.blood_bucket": "Blood Bucket",
+  "item.thelostland.blood_bucket.tooltip": "§4Blood flowed and has become a river......",
+
+  "block.thelostland.injection_bench": "Injection Bench",
+  "block.thelostland.injection_bench.tooltip": "A whole new manufacturing process, how exactly did this evolve..."
+
+}

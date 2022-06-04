@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "bloody_crystal",
+  "ingredient": {
+    "item": "thelostland:bloody_crystal_ore"
+  },
+  "result": "thelostland:bloody_crystal",
+  "experience": 1.0,
+  "cookingtime": 100
+}

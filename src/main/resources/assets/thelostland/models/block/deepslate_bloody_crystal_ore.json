@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "thelostland:block/deepslate_bloody_crystal_ore"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "itemGroup.thelostland.common": "失落之地",
+  "itemGroup.thelostland.legendary": "传奇之物",
+
+  "item.thelostland.bloody_crystal": "血晶石",
+  "item.thelostland.bloody_crystal.tooltip": "§4这片大地积攒了如此多战争的痕迹，连血液都化成了晶石",
+  "block.thelostland.bloody_crystal_ore": "血晶石矿石",
+  "block.thelostland.deepslate_bloody_crystal_ore": "深层血晶石矿石",
+  "item.thelostland.bloody_iron": "血晶铁",
+  "item.thelostland.bloody_iron.tooltip": "§4充满血腥味的铁矿石，更加尖锐",
+  "item.thelostland.bloody_diamond": "血晶钻石",
+  "item.thelostland.bloody_diamond.tooltip": "§4充满血腥味的钻石，血红的晶莹剔透",
+
+  "item.thelostland.blood_bucket": "血桶",
+  "item.thelostland.blood_bucket.tooltip": "§4血流成河......",
+
+  "block.thelostland.injection_bench": "注入工具台",
+  "block.thelostland.injection_bench.tooltip": "一种全新的制造工艺，这究竟是如何发展而来……"
+
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "thelostland",
+  "version": "${version}",
+
+  "name": "The Lost Land",
+  "description": "Its my first MOD!",
+  "authors": [
+    "Elegyi!"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/thelostland/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.thelostland.TheLostLand"
+    ],
+    "client": [
+      "net.thelostland.TheLostLandClient"
+    ]
+  },
+  "mixins": [
+    "thelostland.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

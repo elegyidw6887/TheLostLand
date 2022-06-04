@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "thelostland:block/injection_bench_top",
+    "front": "thelostland:block/injection_bench_front",
+    "side": "thelostland:block/injection_bench_side"
+  }
+}
