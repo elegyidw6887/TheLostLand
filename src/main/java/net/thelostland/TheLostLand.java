@@ -15,10 +15,11 @@ public class TheLostLand implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		// 模组物品注册
 		ModItems.registerModItems();
-
+		// 模组方块注册
 		ModBlocks.registerModBlocks();
-
+		// 模组流体注册
 		ModFluids.registerModFluids();
 
 		LOGGER.info("Welcome to The Lost Land!");

@@ -22,38 +22,38 @@ public class ModItems {
 
     // 血宝石
     public static final Item BLOODY_CRYSTAL = registerItem("bloody_crystal",
-            new Item(new FabricItemSettings().group(ModItemGroups.THE_LOST_LAND_COMMON).maxCount(64)){
-                public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext){
+            new Item(new FabricItemSettings().group(ModItemGroups.THE_LOST_LAND_COMMON).maxCount(64)) {
+                public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
                     tooltip.add(new TranslatableText("item.thelostland.bloody_crystal.tooltip"));
                 }
             });
     // 血晶铁
     public static final Item BLOODY_IRON = registerItem("bloody_iron",
-            new Item(new FabricItemSettings().group(ModItemGroups.THE_LOST_LAND_COMMON).maxCount(64)){
-                public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext){
+            new Item(new FabricItemSettings().group(ModItemGroups.THE_LOST_LAND_COMMON).maxCount(64)) {
+                public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
                     tooltip.add(new TranslatableText("item.thelostland.bloody_iron.tooltip"));
                 }
             });
     // 血晶钻石
     public static final Item BLOODY_DIAMOND = registerItem("bloody_diamond",
-            new Item(new FabricItemSettings().group(ModItemGroups.THE_LOST_LAND_COMMON).maxCount(64)){
-                public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext){
+            new Item(new FabricItemSettings().group(ModItemGroups.THE_LOST_LAND_COMMON).maxCount(64)) {
+                public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
                     tooltip.add(new TranslatableText("item.thelostland.bloody_diamond.tooltip"));
                 }
             });
     // 血桶
     public static final Item BLOOD_BUCKET = registerItem("blood_bucket",
-            new BucketItem(ModFluids.STILL_BLOOD, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1).group(ModItemGroups.THE_LOST_LAND_COMMON)){
-                public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext){
+            new BucketItem(ModFluids.STILL_BLOOD, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1).group(ModItemGroups.THE_LOST_LAND_COMMON)) {
+                public void appendTooltip(ItemStack itemStack, World world, List<Text> tooltip, TooltipContext tooltipContext) {
                     tooltip.add(new TranslatableText("item.thelostland.blood_bucket.tooltip"));
                 }
             });
 
-    public static Item registerItem(String name, Item item){
+    public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TheLostLand.MOD_ID, name), item);
     }
 
-    public static void registerModItems(){
+    public static void registerModItems() {
         TheLostLand.LOGGER.info("Registering ModItems for " + TheLostLand.MOD_ID);
     }
 }
