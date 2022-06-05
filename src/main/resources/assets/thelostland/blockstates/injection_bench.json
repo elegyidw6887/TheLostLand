@@ -1,11 +1,11 @@
 {
   "variants": {
+    "facing=north": {
+      "model": "thelostland:block/injection_bench"
+    },
     "facing=east": {
       "model": "thelostland:block/injection_bench",
       "y": 90
-    },
-    "facing=north": {
-      "model": "thelostland:block/injection_bench"
     },
     "facing=south": {
       "model": "thelostland:block/injection_bench",
