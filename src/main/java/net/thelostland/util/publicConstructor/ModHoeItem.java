@@ -1,4 +1,4 @@
-package net.thelostland.item.publicConstructor;
+package net.thelostland.util.publicConstructor;
 
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.ToolMaterial;

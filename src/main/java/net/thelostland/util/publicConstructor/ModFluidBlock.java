@@ -1,4 +1,4 @@
-package net.thelostland.block.publicConstructor;
+package net.thelostland.util.publicConstructor;
 
 import net.minecraft.block.FluidBlock;
 import net.minecraft.fluid.FlowableFluid;

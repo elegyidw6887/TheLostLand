@@ -17,7 +17,7 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 import net.thelostland.TheLostLand;
 import net.thelostland.block.customBlock.InjectionBenchBlock;
-import net.thelostland.block.publicConstructor.ModFluidBlock;
+import net.thelostland.util.publicConstructor.ModFluidBlock;
 import net.thelostland.fluid.ModFluids;
 import net.thelostland.util.ModItemGroups;
 
